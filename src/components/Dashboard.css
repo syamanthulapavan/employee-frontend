@@ -1,0 +1,21 @@
+.db-main{
+    width: 200px;
+    height: 530px;
+    display: flex;
+    padding: 2px;
+    border-radius: 2px 2px ;
+    justify-content: center;
+    background-color:#0F0202;
+
+}
+.db-navber-all{
+    display: flex;
+    padding: 2px;
+    border-radius: 2px 2px ;
+    background-color:#A6B4C7;
+}
+.Log-out{
+    margin-left: 20px;
+    display: flex;
+    margin-left: 1270px;
+}

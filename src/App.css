@@ -1,0 +1,156 @@
+.emp-home{
+  margin-left: 350px;
+}
+/* Layout */
+.login-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+}
+.login-item {
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  height:130px;
+}
+.fluidrigister{
+    width: 100%;
+  margin-bottom: 1.5rem;
+}
+/* Form */
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-outline {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-label {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* Options row */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.alredylog,
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+/* Divider */
+.divider {
+  text-align: center;
+  margin: -1rem;
+  color: #888;
+  font-weight: bold;
+}
+
+/* Social buttons */
+.btn-social {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.facebook {
+  background: #3b5998;
+}
+.registration {
+  background: #3b5998;
+}
+.twitter {
+  background: #1da1f2;
+}
+
+.btn-social:hover {
+  opacity: 0.9;
+}
+
+.adm-nav{
+  border-radius: 1px;
+}
+
+
+
+.navber-item {
+  display: flex;                  /* Arrange all items side by side */
+  align-items: center;           /* Vertically center items */
+  justify-content: space-between;/* Space between links and logout */
+  background-color: #f8f9fa;     /* Light background */
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;               /* Allows wrapping on smaller screens */
+}
+
+
+
+
+
+
+
+
